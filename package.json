@@ -1,0 +1,22 @@
+{
+    "dependencies": {},
+    "description": "Module XinaBox OC03 xChip",
+    "fullname": "lib.xinabox.oc03",
+    "git_pointer": "zerynth://zerynth-libs/xinabox-oc03",
+    "info": {
+        "chip_manufacturer": "XinaBox",
+        "chip_name": "OC03",
+        "name": "8-bit I/O Expander",
+        "type": "Interface"
+    },
+    "keywords": [
+        "dc-switch",
+        "oc03",
+        "texas",
+        "PCA9554A"
+    ],
+    "repo": "official",
+    "title": "XinaBox OC03",
+    "version": "r2.1.2",
+    "whatsnew": "First Release"
+}

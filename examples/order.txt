@@ -1,0 +1,4 @@
+#XinaBox
+    ##OC03
+		toggle_output
+		remote_relay_control_weather_monitor_wolkabout
