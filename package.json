@@ -2,7 +2,7 @@
     "dependencies": {},
     "description": "Module XinaBox OC03 xChip",
     "fullname": "lib.xinabox.oc03",
-    "git_pointer": "zerynth://zerynth-libs/xinabox-oc03",
+    "git_pointer": "github://zerynth/lib-xinabox-oc03",
     "info": {
         "chip_manufacturer": "XinaBox",
         "chip_name": "OC03",
