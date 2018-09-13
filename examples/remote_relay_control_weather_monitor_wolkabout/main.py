@@ -1,6 +1,6 @@
 #######################################################
 # This example sends BME280 data to the wolkAbout cloud.
-#OC03 relay output can also be controlled from within the
+# OC03 relay output can also be controlled from within the
 # wolkAbout dashboard.
 #
 # Export manifest.json to the wolkAbout platform. 
@@ -39,7 +39,7 @@ pinMode(GREEN, OUTPUT)
 pinMode(BLUE, OUTPUT)
 
 # xChip instances
-SW01 = bme280.BME280(I2C0)
+SW01 = bme280.BME280(I2C0, 0x76,100000)
 OC03 = oc03.OC03(I2C0)
 
 # initialize sensors

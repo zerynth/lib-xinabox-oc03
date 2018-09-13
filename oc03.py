@@ -90,3 +90,4 @@ OC03 class
         '''
         pin_state = self.write_read(PCA9554A_REG_OUTPUT_PORT, 1)[0]
         return pin_state
+

@@ -32,4 +32,3 @@ ________
 * Isolation voltage: 5000 Vrms (min)
 
 .. include:: __toc.rst
-
