@@ -50,7 +50,10 @@ OC03 class
     def __init__(self, drvname, addr = PCA9554A_I2C_ADDRESS , clk = 100000):
         i2c.I2C.__init__(self, drvname, addr, clk)
         self._addr = addr
-        #self.start()
+        try:
+            self.start()
+        except PeripheralError as e:
+            print(e)
         
     def init(self, state = PCA9554A_ALL_OUTPUTS_OFF):
         '''

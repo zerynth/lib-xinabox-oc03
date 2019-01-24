@@ -1,5 +1,5 @@
 ##############################################
-#   This is an example for the OC01 module
+#   This is an example for the OC03 module
 #
 #   The relay is toggled at 500 ms and the
 # 	state printed to the console.
@@ -12,9 +12,6 @@ streams.serial()
 
 # instantiate OC03 class
 OC03 = oc03.OC03(I2C0)
-
-# begin i2c bus
-OC03.start()
 
 # start OC03
 OC03.init()

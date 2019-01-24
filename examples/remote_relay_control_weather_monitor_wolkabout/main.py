@@ -39,11 +39,10 @@ pinMode(GREEN, OUTPUT)
 pinMode(BLUE, OUTPUT)
 
 # xChip instances
-SW01 = bme280.BME280(I2C0, 0x76,100000)
+SW01 = bme280.BME280(I2C0, 0x76, 100000)
 OC03 = oc03.OC03(I2C0)
 
-# initialize sensors
-SW01.start()
+# configure OC03
 OC03.init()
 
 # init the wifi driver

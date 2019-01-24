@@ -1,8 +1,7 @@
 {
+    "description": "Module for XinaBox OC03 single channel dc-switch",
     "fullname": "lib.xinabox.oc03",
     "git_pointer": "github://xinabox/zerynth-OC03",
-    "title": "XinaBox OC03",
-    "description": "Module for XinaBox OC03 single channel dc-switch",
     "info": {
         "chip_manufacturer": "XinaBox",
         "chip_name": "OC03",
@@ -17,5 +16,6 @@
         "xinabox"
     ],
     "repo": "official",
-    "version": "r2.1.2"
+    "title": "XinaBox OC03",
+    "version": "r2.2.0"
 }

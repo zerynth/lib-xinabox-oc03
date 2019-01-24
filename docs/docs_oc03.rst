@@ -19,7 +19,7 @@ Data Sheets:
 OC03 class
 ===============
 
-.. class:: OC03(self, drvname, addr=PCA9554A_I2C_ADDRESS, clk=100000)
+.. class:: OC03(self, drvname, addr = PCA9554A_I2C_ADDRESS , clk = 100000)
 
         Create an instance of the OC03 class.
 
