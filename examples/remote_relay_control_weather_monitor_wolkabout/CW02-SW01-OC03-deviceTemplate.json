@@ -1,0 +1,124 @@
+{
+  "id": 925,
+  "name": "CW02-SW01-OC03",
+  "protocol": "JsonSingleReferenceProtocol",
+  "description": "Xinabox's CW02, SW01 and OC03 xChips",
+  "deviceType": "STANDARD",
+  "connectivityType": "MQTT_BROKER",
+  "published": false,
+  "feeds": [
+    {
+      "id": 1550,
+      "name": "Temperature",
+      "reference": "T",
+      "description": "",
+      "unit": {
+        "id": 31,
+        "name": "CELSIUS",
+        "symbol": "℃",
+        "readingTypeId": 2,
+        "system": "SI",
+        "precision": 1,
+        "context": null,
+        "inUse": true,
+        "readingTypeName": "TEMPERATURE"
+      },
+      "minimum": -40,
+      "maximum": 85,
+      "readingType": {
+        "id": 2,
+        "name": "TEMPERATURE",
+        "dataType": "NUMERIC",
+        "size": 1,
+        "labels": null,
+        "iconName": "ico_temperature"
+      }
+    },
+    {
+      "id": 1551,
+      "name": "Humidity",
+      "reference": "H",
+      "description": "",
+      "unit": {
+        "id": 124,
+        "name": "HUMIDITY_PERCENT",
+        "symbol": "%",
+        "readingTypeId": 4,
+        "system": "NON_SI",
+        "precision": 1,
+        "context": null,
+        "inUse": true,
+        "readingTypeName": "HUMIDITY"
+      },
+      "minimum": 0,
+      "maximum": 100,
+      "readingType": {
+        "id": 4,
+        "name": "HUMIDITY",
+        "dataType": "NUMERIC",
+        "size": 1,
+        "labels": null,
+        "iconName": "ico_humidity"
+      }
+    },
+    {
+      "id": 1552,
+      "name": "Pressure",
+      "reference": "P",
+      "description": "",
+      "unit": {
+        "id": 112,
+        "name": "MILLIBAR",
+        "symbol": "mb",
+        "readingTypeId": 3,
+        "system": "NON_SI",
+        "precision": 1,
+        "context": null,
+        "inUse": true,
+        "readingTypeName": "PRESSURE"
+      },
+      "minimum": 300,
+      "maximum": 1100,
+      "readingType": {
+        "id": 3,
+        "name": "PRESSURE",
+        "dataType": "NUMERIC",
+        "size": 1,
+        "labels": null,
+        "iconName": "ico_pressure"
+      }
+    }
+  ],
+  "actuators": [
+    {
+      "id": 805,
+      "name": "Relay switch",
+      "reference": "R",
+      "description": "",
+      "unit": {
+        "id": 145,
+        "name": "BOOLEAN(ACTUATOR)",
+        "symbol": null,
+        "readingTypeId": 31,
+        "system": "CUSTOM",
+        "precision": 1,
+        "context": null,
+        "inUse": true,
+        "readingTypeName": "SWITCH(ACTUATOR)"
+      },
+      "minimum": 0,
+      "maximum": 1,
+      "readingType": {
+        "id": 31,
+        "name": "SWITCH(ACTUATOR)",
+        "dataType": "BOOLEAN",
+        "size": 1,
+        "labels": null,
+        "iconName": "ico_switcher"
+      }
+    }
+  ],
+  "alarms": [],
+  "configs": [],
+  "generallyAvailable": false
+}

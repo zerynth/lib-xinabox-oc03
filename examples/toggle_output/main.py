@@ -23,11 +23,11 @@ DELAY = 500
 while True:
 
     # close relay
-    OC03.writePin(True)		
-    print(OC03.getStatus()) # return state of relay to console
+    OC03.writePin(True)
+    print(OC03.getStatus())  # return state of relay to console
     sleep(DELAY)
-    
+
     # open relay
     OC03.writePin(False)
-    print(OC03.getStatus()) # return state of relay to console
+    print(OC03.getStatus())  # return state of relay to console
     sleep(DELAY)
